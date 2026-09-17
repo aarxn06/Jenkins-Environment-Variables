@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/Jenkins-Environment-Variables.git'
+                    url: 'https://github.com/aarxn06/Jenkins-Environment-Variables.git'
             }
         }
 
